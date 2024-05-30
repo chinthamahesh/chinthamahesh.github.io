@@ -14,30 +14,35 @@ Microsoft Announced major updates to Copilot Studio in Build 2024. In this artic
 
 Redefined simplified developer experience for creating copilots using Copilot Studio. 
 
+    ![](/media/2024-05-03-copilot-announcements-from-ms-build-2024/newui.png)
 
 ## Templates
 
 
 Industry specific templates to create custom copilots based on the industry specific templates. Templates will accelerate the development as we do not need to start from scratch. Some of these templates are Store Operations, Sustainability Insights, Website Q & A etc. we can also save custom copilot as template and made it available to others.
 
+    ![](/media/2024-05-03-copilot-announcements-from-ms-build-2024/templates.png)
 
 ## Create Copilots from SharePoint - Private Preview
 
 
 Users can directly create custom copilots from SharePoint site by selecting documents and extend the copilot using Copilot Studio. Copilot will be available on the SharePoint site and we can directly ask any questions on the data from the data within the SharePoint site
 
+    ![](/media/2024-05-03-copilot-announcements-from-ms-build-2024/sharepointcopilot.png)
 
 ## Copilot Connectors/Knowledge Sources
 
 
 We can now bring in Enterprise data in to copilot using Copilot Connectors and ground copilot on the enterprise data including Microsoft Fabric, Dataverse, Azure Data Lake, Microsoft Graph, Service Now and other data sources
 
+    ![](/media/2024-05-03-copilot-announcements-from-ms-build-2024/knowledgesources.png)
 
 ## New Analytics - Private Preview
 
 
 Enhanced Copilot Studio analytics including how Generative AI is responding to user queries and opportunities for improvements. 
 
+    ![](/media/2024-05-03-copilot-announcements-from-ms-build-2024/analytics.png)
 
 ## Additional Security Enhancements and new DLP policies
 
