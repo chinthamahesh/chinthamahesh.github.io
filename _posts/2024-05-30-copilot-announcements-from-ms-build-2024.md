@@ -14,10 +14,7 @@ Microsoft Announced major updates to Copilot Studio in Build 2024. In this artic
 
 Redefined simplified developer experience for creating copilots using Copilot Studio. 
 
-    ![alt]({{ site.url }}{{ site.baseurl }}/media/2024-05-30-copilot-announcements-from-ms-build-2024/newui.png)
-    {: .full}
-
-    ![](/media/2024-05-30-copilot-announcements-from-ms-build-2024/newui.png)
+![alt]({{ site.url }}{{ site.baseurl }}/media/2024-05-30-copilot-announcements-from-ms-build-2024/newui.png)    
 
 ## Templates
 
