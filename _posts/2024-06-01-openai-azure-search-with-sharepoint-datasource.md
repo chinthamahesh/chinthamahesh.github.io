@@ -36,6 +36,7 @@ Select Authentication blade -> Add a platform -> Select 'Mobile and desktop appl
 Now, we need to create Azure AI Search resource, SharePoint data source, search index and indexer using the REST API or Power Shell as SharePoint data source is not available in the Azure UI. Both PowerShell and Postman scripts ate provided to create each resource. Use either PowerShell or Postman script as per your toolset 
 
 **Create Azure AI Search resource**
+
 In Azure Portal, Search for 'AI Search' ->  Create a search service -> Select a Resource Group -> Enter Service Name -> Create
 
 Search service should be created with the URL: https://<searchservicename>.search.windows.net
@@ -84,6 +85,7 @@ api-key: <apikey>
 ```
 
 **Create SharePoint Index**
+
 Run below Power Shell script to create SharePoint search index. Replace variables as per your tenant resources
 
 ```powershell
@@ -130,6 +132,7 @@ api-key: <apikey>
 ```
 
 **Create Search Indexer**
+
 Run below Power Shell script to create search indexer. Replace variables as per your tenant resources. We need to execute the next script within 10 minutes after executing the below script and complete the device login and the indexer script. Indexer script waits until we complete the devicelogin.
 
 ```powershell
@@ -204,6 +207,7 @@ api-key: <apikey>
 ```
 
 **Get Search Indexer Status**
+
 Execute the below script while indexer script awaits to complete tje device login. The below script returns a response with errorMessage and the code to authenticate.
 
 ```powershell
@@ -228,6 +232,7 @@ The Search Indexer will access the SharePoint content as the signed-in user. The
 Now, Search Indexer should be able to index all of the documents the signed in user has access to within the SharePoint document library.
 
 ## Create OpenAI Service ## 
+
 Search 'Azure OpenAI' in Azure Portal -> Select Resource group, Name and create a OpenAI resource
 
 Navigate to Azure OpenAI Studio from OpenAI resource
@@ -238,7 +243,8 @@ Select Search type 'Keyword' -> Save and close
 
 Start chatting with your SharePoint data in the Azure Open AI Chat playground
 
-## Deploy to Copilot Studio
+## Deploy to Copilot Studio ## 
+
 You can fine tune and test the model and further deploy to Copilot Stuidio from Azure Open AI Chat playgroud and access your copilot from Copilot Studio. 
 
 
